@@ -20,3 +20,8 @@ exports.handleContactForm = function(req, res) {
 exports.rayray = function (req, res) {
   res.render('ray', {});
 };
+
+exports.paulisit = function(req,res) {
+      res.render('paulisit', { title: 'IT Generalist Man Paul J. Barrett'});             
+};
+
