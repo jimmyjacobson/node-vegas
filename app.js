@@ -31,6 +31,7 @@ app.get('/', routes.index);
 app.get('/users', user.list);
 app.get('/contact', routes.contact);
 app.post('/contact', routes.handleContactForm);
+app.get('/ray', routes.rayray);
 
 
 http.createServer(app).listen(app.get('port'), function(){

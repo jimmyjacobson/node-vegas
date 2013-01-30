@@ -16,3 +16,8 @@ exports.handleContactForm = function(req, res) {
 	res.write('thanks');
 	res.end();
 };
+
+exports.rayray = function (req, res) {
+  console.log(res);
+  res.render('ray', {});
+};
