@@ -18,6 +18,5 @@ exports.handleContactForm = function(req, res) {
 };
 
 exports.rayray = function (req, res) {
-  console.log(res);
   res.render('ray', {});
 };
