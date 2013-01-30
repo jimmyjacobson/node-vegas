@@ -27,6 +27,8 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
+require('./theRoutes')(app);
+
 app.get('/', routes.index);
 app.get('/users', user.list);
 app.get('/contact', routes.contact);

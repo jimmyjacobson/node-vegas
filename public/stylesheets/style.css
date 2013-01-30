@@ -1,8 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+  background-color: #440000;
+  color: #999;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+#clear {
+    clear: both;
+}
+
+#nav {
+    margin: 5px auto 5px auto;
+}
 
 a {
+  text-decoration:none;
   color: #00B7FF;
 }
+
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+li {
+    color; #300;
+    float:left;
+    background-color: #444;
+    padding: 15px;
+    color: #777;
+}
+li:hover {
+    color: #FFF;
+    background-color: #777;
+}
+ul a:hover {
+    color: #FFF;
+    background-color: #777;
+}
+
+p {
+    margin: 10px auto 10px auto;
+}
+
+
