@@ -4,8 +4,9 @@
 }
 
 body {
-  background-color: #440000;
-  color: #999;
+  margin-top: 150px;
+  background: white url("../img/vegasNode.jpg") no-repeat;
+  color: #555;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -29,7 +30,7 @@ ul {
 
 li {
     color; #300;
-    float:left;
+    float:right;
     background-color: #444;
     padding: 15px;
     color: #777;
